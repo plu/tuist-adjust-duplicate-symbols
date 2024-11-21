@@ -18,7 +18,25 @@ let project = Project(
             ),
             sources: ["tuist-adjust/Sources/**"],
             resources: ["tuist-adjust/Resources/**"],
-            dependencies: []
+            dependencies: [.target(name: "tuist-adjust-kit")],
+            settings: .settings(
+                base: [
+                    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+                ]
+            )
+        ),
+        .target(
+            name: "tuist-adjust-kit",
+            destinations: .iOS,
+            product: .staticFramework,
+            bundleId: "io.tuist.tuist-adjust-kit",
+            sources: ["tuist-adjust-kit/Sources/**"],
+            dependencies: [.external(name: "Criteo")],
+            settings: .settings(
+                base: [
+                    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+                ]
+            )
         ),
         .target(
             name: "tuist-adjustTests",
