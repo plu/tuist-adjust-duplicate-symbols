@@ -13,6 +13,7 @@ tuist build --clean
 
 <details>
   <summary>Output</summary>
+```
 mise ~/Development/tuist-adjust/.mise.toml tools: tuist@4.27.0
 Successfully cleaned artifacts at path /Users/johannes.plunien/.cache/tuist/Plugins
 Successfully cleaned artifacts at path /Users/johannes.plunien/.cache/tuist/Projects
@@ -172,7 +173,7 @@ Building scheme tuist-adjust-kit
 [tuist-adjust-kit] Processing tuist-adjust-kit-Info.plist
 Build Succeeded
 The project built successfully
-
+```
 </details>
 
 ## 4.34.3 - Duplicate symbols
@@ -188,6 +189,7 @@ tuist build --clean
 
 <details>
   <summary>Output</summary>
+```
 mise ~/Development/tuist-adjust/.mise.toml tools: tuist@4.34.3
 Successfully cleaned artifacts at path /Users/johannes.plunien/.cache/tuist/Plugins
 Successfully cleaned artifacts at path /Users/johannes.plunien/.cache/tuist/Projects
@@ -216,7 +218,7 @@ Generating project tuist-adjust
 Project generated.
 Total time taken: 1.759s
 Command line invocation:
-    /Applications/Xcode-15.4.0.app/Contents/Developer/usr/bin/xcodebuild clean
+/Applications/Xcode-15.4.0.app/Contents/Developer/usr/bin/xcodebuild clean
 
 User defaults from command line:
 IDEPackageSupportUseBuiltinSCM = YES
@@ -810,5 +812,5 @@ Ld /Users/johannes.plunien/Library/Developer/Xcode/DerivedData/tuist-adjust-hekg
 (1 failure)
 
 Consider creating an issue using the following link: https://github.com/tuist/tuist/issues/new/choose
-
+```
 </details>
