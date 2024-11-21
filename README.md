@@ -13,6 +13,7 @@ tuist build --clean
 
 <details>
   <summary>Output</summary>
+
 ```
 mise ~/Development/tuist-adjust/.mise.toml tools: tuist@4.27.0
 Successfully cleaned artifacts at path /Users/johannes.plunien/.cache/tuist/Plugins
@@ -189,6 +190,7 @@ tuist build --clean
 
 <details>
   <summary>Output</summary>
+
 ```
 mise ~/Development/tuist-adjust/.mise.toml tools: tuist@4.34.3
 Successfully cleaned artifacts at path /Users/johannes.plunien/.cache/tuist/Plugins
